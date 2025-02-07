@@ -852,6 +852,10 @@ footer .connect-us ul li a:hover {
   background-color: #f7c552;
 }
 
+.contact-info a {
+  color: #fff;
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 991px) {
