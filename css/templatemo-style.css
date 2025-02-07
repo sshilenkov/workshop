@@ -280,6 +280,13 @@ bootstrap.min.css: 5 .navbar-toggle {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position-y: -400px;
+}
+
+@media (max-width: 991px) {
+  #about {
+    background-position-y: 0;
+  }
 }
 
 #about::before {
