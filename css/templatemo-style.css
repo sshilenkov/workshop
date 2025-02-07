@@ -93,15 +93,6 @@ p {
   text-shadow: none;
 }
 
-.navbar-brand {
-  width: 210px;
-  height: 80px;
-  background-image: url(../img/logo.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .navbar-nav > li > a {
   color: #fff !important;
   font-size: 13px;
@@ -134,10 +125,17 @@ p {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 }
 .navbar-brand {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
-  text-transform: uppercase;
+  width: 210px;
+  height: 80px;
+  padding-top: 0;
+  background-image: url(../img/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #fff !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
   transition: all 0.5s;
 }
 .navbar-brand em {
@@ -152,9 +150,6 @@ p {
 .header.active .navbar-header {
   background-color: #373a3c;
   transition: all 0.2s ease-in-out;
-}
-.header .navbar-brand {
-  font-weight: 800;
 }
 .navbar-inverse {
   background-image: none;
@@ -217,7 +212,7 @@ bootstrap.min.css: 5 .navbar-toggle {
 
 .baner-content {
   width: 100%;
-  padding-top: 35vh;
+  padding-top: 25vh;
   text-align: center;
   background-image: url(../img/banner_bg.jpeg);
   vertical-align: middle;
@@ -285,7 +280,6 @@ bootstrap.min.css: 5 .navbar-toggle {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position-y: -435px;
 }
 
 #about::before {
@@ -479,6 +473,17 @@ bootstrap.min.css: 5 .navbar-toggle {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  .payment {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .payment__description h3 {
+    font-size: 18px;
+  }
 }
 
 .payment__qr {
