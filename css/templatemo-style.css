@@ -446,7 +446,7 @@ bootstrap.min.css: 5 .navbar-toggle {
 }
 
 #testimonial {
-  background-color: #f7c552;
+  background-color: #33c1cf;
   text-align: center;
   padding: 100px 0px;
 }
@@ -482,6 +482,27 @@ bootstrap.min.css: 5 .navbar-toggle {
   justify-content: space-around;
 }
 
+#about-programm {
+  padding: 100px 0px;
+  background-color: #f7c552;
+}
+
+.about-programm {
+  color: #fff;
+  font-size: 24px;
+}
+
+.about-programm h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.about-programm ol {
+  margin-top: 12px;
+}
+
 @media (max-width: 768px) {
   .payment {
     flex-direction: column;
@@ -500,6 +521,7 @@ bootstrap.min.css: 5 .navbar-toggle {
 }
 
 .payment__description {
+  padding: 0 20px;
   color: #fff;
 }
 
