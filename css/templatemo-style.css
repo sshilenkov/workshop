@@ -1023,3 +1023,7 @@ footer .connect-us ul li a:hover {
     border-right: none;
   }
 }
+
+.discount {
+  color: #f7c552;
+}
